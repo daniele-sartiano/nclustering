@@ -1,4 +1,3 @@
-DATA = data
 
 analyze:
-	python analyzer.py $(DATA)/all.flows
+	python analyzer.py $(INFILE)
